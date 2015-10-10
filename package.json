@@ -1,0 +1,34 @@
+{
+  "name": "adaptation",
+  "version": "0.0.0",
+  "description": "Hapi plugin for adapting your responses by status code on a per-route basis",
+  "author": "Blaine Bublitz <blaine@iceddev.com> (http://iceddev.com)",
+  "contributors": [],
+  "repository": "iceddev/adaptation",
+  "license": "MIT",
+  "engines": {
+    "node": ">= 0.10"
+  },
+  "main": "index.js",
+  "files": [
+    "LICENSE",
+    "index.js"
+  ],
+  "scripts": {
+    "test": "eslint **/*.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@phated/eslint-config-iceddev": "^0.2.1",
+    "eslint": "^1.6.0",
+    "eslint-plugin-mocha": "^0.5.1",
+    "eslint-plugin-react": "^3.5.1"
+  },
+  "keywords": [
+    "adapt",
+    "hapi",
+    "plugin",
+    "response",
+    "transform"
+  ]
+}
